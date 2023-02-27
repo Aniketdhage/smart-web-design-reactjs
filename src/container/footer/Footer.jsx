@@ -10,8 +10,10 @@ const Footer = () => {
           Do you want to step in to the future before others
         </h1>
       </div>
-      <div className="gpt3_footer-btn">
-        <p>Request Early Access</p>
+      <div className="gpt3_footer-btn-main">
+        <div className="gpt3_footer-btn">
+          <p>Request Early Access</p>
+        </div>
       </div>
       <div className="gpt3_footer-links">
         <div className="gpt3_footer-links_logo">
@@ -41,10 +43,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="gpt3_footer-copyright-main">
-        <div className="gpt3_footer-copyright">
-          <p>@2023 GPT-3 Design By Aniket Dhage. All rights reserved.</p>
-        </div>
+      <div className="gpt3_footer-copyright">
+        <p>@2023 GPT-3 Design By Aniket Dhage. All rights reserved.</p>
       </div>
     </div>
   );

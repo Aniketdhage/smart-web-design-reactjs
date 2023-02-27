@@ -17,21 +17,25 @@
 .gpt3_footer-heading h1 {
   font-family: var(--font-family);
   font-weight: 800;
-  font-size: 64px;
+  font-size: 56px;
   line-height: 75px;
+}
+
+.gpt3_footer-btn-main {
+  width: 100%;
+  text-align: center;
 }
 
 .gpt3_footer-btn {
   display: flex;
   justify-content: center;
   align-items: center;
-
   padding: 1rem;
   border: 1px solid #fff;
   text-align: center;
-
   margin-bottom: 10rem;
   cursor: pointer;
+  /* width: fit-content; */
 }
 
 .gpt3_footer-btn p {
