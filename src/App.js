@@ -1,7 +1,7 @@
 import React from "react";
 import { Article, Brand, Navbar, Feature, Cta } from "./Components";
 import {
-  Blogs,
+  // Blogs,
   Footer,
   Features,
   Header,
@@ -22,7 +22,7 @@ const App = () => {
       <Features />
       <Possibility />
       <Cta />
-      <Blogs />
+      {/* <Blogs /> */}
       <Footer />
     </div>
   );
